@@ -9,6 +9,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
 
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+
 </head>
 
 <body>
@@ -53,16 +67,8 @@
             <h1>Mural</h1>
           </section>
 
-          <div class="postit-laranja">
-              Carreta 5G
-          </div>
-
-          <div class="postit-laranja">
-            Laranja
-        </div>
-
-        <div class="postit-laranja">
-          Laranja
+          <div id="draggable" class="ui-widget-content">
+         
       </div>
          <!--
           <section id="comandos">
